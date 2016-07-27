@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+	width: 90%;
+	padding-left: 14px; 
+	padding-right: 14px;
+	margin: 0px auto;
+}
+.row {
+	margin-left: -14px;
+	margin-right: -14px;
+}
+.row:before, .row:after{
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.text-center {
+	text-align: center;
+}
+.img-portada{
+	padding: 20px;
+}
+.menu {
+	padding: 10px;
+	height: 43px;
+}
+nav div a {
+	position: relative;
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: times;
+	overflow:hidden;
+	padding:50px 10px;
+
+}
+nav a:hover{
+color: #FFD531;
+} 
+.line1 {
+	position: relative;
+	width: 600px;
+	height: 1px;
+	background-color: black;
+	margin: 0 auto;
+	
+}
+.line2 {
+	width: 150px;
+	height: 1.5px;
+	background-color: gray;
+	margin: 0 auto;
+}
+.texto {
+	padding: 20px;
+	width: 40%;
+	font-size: 25px;
+	margin: 0 auto;
+}
+.titulo{
+	position: relative;
+	text-align: left;
+	left: 300px;
+}
+.line {
+	width: 150px;
+	border: 1px solid;	
+	height: 2px;
+	background-color: black;
+	position: relative;
+	left: 300px
+}
+.contenedor1 { 
+	position: relative;
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 20px;
+ }
+.h-imagen {
+	display: inline-block;
+	position: relative;
+	margin: 10px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.detail-portafolio .detail-habilidades { 
+	position: relative;
+}
+.h-imagen-detail {
+	position: relative;
+	margin: 2px;
+	display: inline-block;
+	clear: both;
+}
+.data {
+	position: absolute;
+	margin-bottom: 8px;
+	margin-right: 5px;
+	right: 0px;
+	bottom: 0px;
+	color: white;
+}
+.overlay    {  
+    opacity: 0.5;
+}
+.h-imagen:hover .overlay {
+    opacity:90;
+}
+.container-detail{
+	position: relative;
+	width: 50%;
+	text-align: center;
+	padding: 30px;
+	margin: 0 auto;
+	border: 1px solid gray;
+	top: 10px;
+	bottom: 10px;
+}
+.logo {
+	padding: 15px;
+}
+.circle{
+	position: relative;
+	border-radius: 50%;
+	top: 20px;}
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-detail {
+	position: relative;
+	padding: 20px;
+	top:10px;
+}
+.content-barra {
+	width: 80%;
+	color: white;
+}
+.barra1 {
+	background-color: gray;
+	width: 500px;
+	height: 30px;
+	padding: 10px 50px;
+	text-align: left;
+	margin: 15px;
+}
+.barra2 {
+	background-color: gray;
+	width: 350px;
+	height: 30px;
+	padding: 10px 50px;
+	text-align: left;
+	margin: 15px;
+}
+.barra3 {
+	background-color: gray;
+	width: 150px;
+	height: 30px;
+	padding: 10px 50px;
+	text-align: left;
+	margin: 15px; 
+}
+.data a {
+	position: relative;
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: times;
+	overflow:hidden;
+	padding:50px 10px;
+}
+.data a:hover{
+color: #FFD531;
+} 
